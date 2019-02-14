@@ -29,7 +29,7 @@
         },
         "acadmixdist": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/acadmixdistprofile",
+            "url": "https://github.com/IITBombayWeb/iitbdeptweb",
             "no-api": true
         },
         "iitbcommonmodules": {
