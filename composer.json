@@ -15,9 +15,9 @@
         "solarium/solarium": "~4.2",
         "npm-asset/slick": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "iitbombayweb/iitbdeptweb": "~0.1.0",
-        "iitbombayweb/iitbcommon": "~0.1.0",
-        "iitbombayweb/acadcommon": "~0.1.0"
+        "iitbombayweb/iitbdeptweb": "~6.6.0",
+        "iitbombayweb/iitbcommon": "~6.6.0",
+        "iitbombayweb/acadcommon": "~6.6.0"
     },
     "repositories": {
         "drupal": {
