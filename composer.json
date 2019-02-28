@@ -12,6 +12,7 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
+        "solarium/solarium": "~4.2",
         "npm-asset/slick": "~1.0",
         "npm-asset/blazy": "~1.0",
         "iitbombayweb/iitbdeptweb": "~0.1.0",
