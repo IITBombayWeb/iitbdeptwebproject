@@ -14,9 +14,9 @@
         "drush/drush": "^8.0",
         "npm-asset/slick": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "IITBombayWeb/iitbdeptweb": "~0.1.0",
-        "IITBombayWeb/iitbcommon": "~0.1.0",
-        "IITBombayWeb/acadcommon": "~0.1.0"
+        "iitbombayweb/iitbdeptweb": "~0.1.0",
+        "iitbombayweb/iitbcommon": "~0.1.0",
+        "iitbombayweb/acadcommon": "~0.1.0"
     },
     "repositories": {
         "drupal": {
@@ -29,17 +29,17 @@
         },
         "acadmixdist": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/iitbdeptweb",
+            "url": "https://github.com/iitbombayweb/iitbdeptweb",
             "no-api": true
         },
         "iitbcommonmodules": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/iitbcommon",
+            "url": "https://github.com/iitbombayweb/iitbcommon",
             "no-api": true
         },
         "acadcommonmodules": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/acadcommon",
+            "url": "https://github.com/iitbombayweb/acadcommon",
             "no-api": true
         }
     },
