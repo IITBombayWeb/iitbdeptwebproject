@@ -64,5 +64,8 @@
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"]
         },
         "enable-patching": true
+    },
+    "scripts": {
+        "post-update-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     }
 }
