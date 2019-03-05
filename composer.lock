@@ -4389,21 +4389,21 @@
         },
         {
             "name": "iitbombayweb/acadcommon",
-            "version": "6.6.0-alpha2",
+            "version": "6.6.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acadcommon",
-                "reference": "de02a710195cbccfa8783c12e7695a3d5c40ad39"
+                "reference": "f43ac52430a8905d8db62dccab709fb0bb450c75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/de02a710195cbccfa8783c12e7695a3d5c40ad39",
-                "reference": "de02a710195cbccfa8783c12e7695a3d5c40ad39",
+                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/f43ac52430a8905d8db62dccab709fb0bb450c75",
+                "reference": "f43ac52430a8905d8db62dccab709fb0bb450c75",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "Acadmix Distribution Modules",
-            "time": "2019-03-01T13:22:50+00:00"
+            "time": "2019-03-05T12:13:50+00:00"
         },
         {
             "name": "iitbombayweb/iitbcommon",
