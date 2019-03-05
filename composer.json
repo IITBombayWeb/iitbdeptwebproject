@@ -66,6 +66,6 @@
         "enable-patching": true
     },
     "scripts": {
-        "post-update-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+        "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     }
 }
