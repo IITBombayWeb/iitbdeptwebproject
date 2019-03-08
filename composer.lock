@@ -3039,6 +3039,66 @@
             }
         },
         {
+            "name": "drupal/field_permissions",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/field_permissions",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_permissions-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "bbc0d4215b24f2613a02a365a22f2039ebcea421"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1545332280",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                },
+                {
+                    "name": "mariacha1",
+                    "homepage": "https://www.drupal.org/user/2210776"
+                },
+                {
+                    "name": "markus_petrux",
+                    "homepage": "https://www.drupal.org/user/39593"
+                }
+            ],
+            "description": "The Field Permissions module allows site administrators to set field-level permissions to edit, view and create fields on any entity.",
+            "homepage": "https://www.drupal.org/project/field_permissions",
+            "support": {
+                "source": "http://cgit.drupalcode.org/field_permissions",
+                "issues": "https://www.drupal.org/project/issues/field_permissions"
+            }
+        },
+        {
             "name": "drupal/ldap",
             "version": "3.0.0-beta5",
             "source": {
@@ -4566,34 +4626,34 @@
         },
         {
             "name": "iitbombayweb/iitbcommon",
-            "version": "8.6.0-alpha1",
+            "version": "8.6.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbcommon",
-                "reference": "3d992e9deb1bf748cfc43392d09777d7825b59f5"
+                "reference": "ab4ac2fca5cec4751ffaea3996687df73f84e7ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/3d992e9deb1bf748cfc43392d09777d7825b59f5",
-                "reference": "3d992e9deb1bf748cfc43392d09777d7825b59f5",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/ab4ac2fca5cec4751ffaea3996687df73f84e7ba",
+                "reference": "ab4ac2fca5cec4751ffaea3996687df73f84e7ba",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "IITB Distribution Modules 6.0",
-            "time": "2019-03-07T16:17:37+00:00"
+            "time": "2019-03-08T12:26:45+00:00"
         },
         {
             "name": "iitbombayweb/iitbdeptweb",
-            "version": "8.6.0-alpha1",
+            "version": "8.6.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "77587e7f8ee92f5713801dd5b82f3c5a73b6df97"
+                "reference": "f1e58ab190643d61a717a98ec034aed132c7bf4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/77587e7f8ee92f5713801dd5b82f3c5a73b6df97",
-                "reference": "77587e7f8ee92f5713801dd5b82f3c5a73b6df97",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/f1e58ab190643d61a717a98ec034aed132c7bf4d",
+                "reference": "f1e58ab190643d61a717a98ec034aed132c7bf4d",
                 "shasum": ""
             },
             "require": {
@@ -4610,6 +4670,7 @@
                 "drupal/devel": "~1.0",
                 "drupal/ds": "~3.1",
                 "drupal/facets": "~1.0",
+                "drupal/field_permissions": "~1.0",
                 "drupal/ldap": "~3.0",
                 "drupal/libraries": "~3.0",
                 "drupal/migrate_plus": "~4.0",
@@ -4634,7 +4695,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "IIT Bombay Department Website Distribution Profile 6.0",
-            "time": "2019-03-07T16:29:58+00:00"
+            "time": "2019-03-08T15:05:38+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
