@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dce352fa76f50f1cb13830829d93b7b4",
+    "content-hash": "7f9e461e132e9996f1467b3e1fc0fef9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2425,16 +2425,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.5.11",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "3750c5b2e39857825a2631179d0b9a06b240193f"
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/3750c5b2e39857825a2631179d0b9a06b240193f",
-                "reference": "3750c5b2e39857825a2631179d0b9a06b240193f",
+                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
                 "shasum": ""
             },
             "require": {
@@ -2553,10 +2553,12 @@
                 "drupal/link": "self.version",
                 "drupal/locale": "self.version",
                 "drupal/media": "self.version",
+                "drupal/media_library": "self.version",
                 "drupal/menu_link_content": "self.version",
                 "drupal/menu_ui": "self.version",
                 "drupal/migrate": "self.version",
                 "drupal/migrate_drupal": "self.version",
+                "drupal/migrate_drupal_multilingual": "self.version",
                 "drupal/migrate_drupal_ui": "self.version",
                 "drupal/minimal": "self.version",
                 "drupal/node": "self.version",
@@ -2588,7 +2590,8 @@
                 "drupal/user": "self.version",
                 "drupal/views": "self.version",
                 "drupal/views_ui": "self.version",
-                "drupal/workflows": "self.version"
+                "drupal/workflows": "self.version",
+                "drupal/workspaces": "self.version"
             },
             "require-dev": {
                 "behat/mink": "1.7.x-dev",
@@ -2598,8 +2601,8 @@
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "mikey179/vfsstream": "^1.2",
-                "phpspec/prophecy": "^1.4",
-                "phpunit/phpunit": "^4.8.35 || ^6.1",
+                "phpspec/prophecy": "^1.7",
+                "phpunit/phpunit": "^4.8.35 || ^6.5",
                 "symfony/css-selector": "^3.4.0",
                 "symfony/debug": "^3.4.0",
                 "symfony/phpunit-bridge": "^3.4.3"
@@ -2657,7 +2660,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-20T18:35:05+00:00"
+            "time": "2019-02-20T18:35:01+00:00"
         },
         {
             "name": "drupal/csv_serialization",
@@ -2791,20 +2794,20 @@
         },
         {
             "name": "drupal/ds",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ds",
-                "reference": "8.x-3.2"
+                "reference": "8.x-3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.2.zip",
-                "reference": "8.x-3.2",
-                "shasum": "c5171e3e59d5ec666e5b5a53baf8f92c01956998"
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.3.zip",
+                "reference": "8.x-3.3",
+                "shasum": "0f586997908d464c123b1ab8817cf13363666459"
             },
             "require": {
-                "drupal/core": "^8.3"
+                "drupal/core": "^8.6"
             },
             "require-dev": {
                 "drupal/devel": "*",
@@ -2816,7 +2819,7 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.2",
+                    "version": "8.x-3.3",
                     "datestamp": "1551355085",
                     "security-coverage": {
                         "status": "covered",
@@ -4545,52 +4548,52 @@
         },
         {
             "name": "iitbombayweb/acadcommon",
-            "version": "8.5.0-alpha1",
+            "version": "8.6.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acadcommon",
-                "reference": "c9571a5cf30ee8f7177813b206af782441b06ea4"
+                "reference": "296a35770384073ed6fefc6cd5259c4801443af7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/c9571a5cf30ee8f7177813b206af782441b06ea4",
-                "reference": "c9571a5cf30ee8f7177813b206af782441b06ea4",
+                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/296a35770384073ed6fefc6cd5259c4801443af7",
+                "reference": "296a35770384073ed6fefc6cd5259c4801443af7",
                 "shasum": ""
             },
             "type": "drupal-module",
-            "description": "Acadmix Distribution Modules",
-            "time": "2019-03-07T16:10:40+00:00"
+            "description": "Acadmix Distribution Modules 6.0",
+            "time": "2019-03-07T16:21:52+00:00"
         },
         {
             "name": "iitbombayweb/iitbcommon",
-            "version": "8.5.0-alpha1",
+            "version": "8.6.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbcommon",
-                "reference": "3894536a7206dc7ce9e237f4dfa14ea40e98ccb4"
+                "reference": "3d992e9deb1bf748cfc43392d09777d7825b59f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/3894536a7206dc7ce9e237f4dfa14ea40e98ccb4",
-                "reference": "3894536a7206dc7ce9e237f4dfa14ea40e98ccb4",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/3d992e9deb1bf748cfc43392d09777d7825b59f5",
+                "reference": "3d992e9deb1bf748cfc43392d09777d7825b59f5",
                 "shasum": ""
             },
             "type": "drupal-module",
-            "description": "IITB Distribution Modules",
-            "time": "2019-03-07T15:32:17+00:00"
+            "description": "IITB Distribution Modules 6.0",
+            "time": "2019-03-07T16:17:37+00:00"
         },
         {
             "name": "iitbombayweb/iitbdeptweb",
-            "version": "8.5.0-alpha1",
+            "version": "8.6.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "5b80fc7277d720c3cd56bd087f5f1af61e3418c9"
+                "reference": "77587e7f8ee92f5713801dd5b82f3c5a73b6df97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/5b80fc7277d720c3cd56bd087f5f1af61e3418c9",
-                "reference": "5b80fc7277d720c3cd56bd087f5f1af61e3418c9",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/77587e7f8ee92f5713801dd5b82f3c5a73b6df97",
+                "reference": "77587e7f8ee92f5713801dd5b82f3c5a73b6df97",
                 "shasum": ""
             },
             "require": {
@@ -4630,8 +4633,8 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "IIT Bombay Department Website Distribution Profile",
-            "time": "2019-03-06T13:52:25+00:00"
+            "description": "IIT Bombay Department Website Distribution Profile 6.0",
+            "time": "2019-03-07T16:29:58+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",

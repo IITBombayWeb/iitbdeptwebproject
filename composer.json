@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/core": "~8.5.0",
+        "drupal/core": "~8.6.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -16,9 +16,9 @@
         "solarium/solarium": "~4.2",
         "npm-asset/slick": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "iitbombayweb/iitbdeptweb": "~8.5.0",
-        "iitbombayweb/iitbcommon": "~8.5.0",
-        "iitbombayweb/acadcommon": "~8.5.0"
+        "iitbombayweb/iitbdeptweb": "~8.6.0",
+        "iitbombayweb/iitbcommon": "~8.6.0",
+        "iitbombayweb/acadcommon": "~8.6.0"
     },
     "repositories": {
         "drupal": {
