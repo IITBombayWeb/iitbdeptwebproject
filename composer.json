@@ -18,6 +18,7 @@
         "npm-asset/blazy": "~1.0",
         "iitbombayweb/iitbdeptweb": "~8.6.0",
         "iitbombayweb/iitbcommon": "~8.6.0",
+        "iitbombayweb/iitbextra": "~8.6.0",
         "iitbombayweb/acadcommon": "~8.6.0"
     },
     "repositories": {
@@ -37,6 +38,11 @@
         "iitbcommonmodules": {
             "type": "github",
             "url": "https://github.com/iitbombayweb/iitbcommon",
+            "no-api": true
+        },
+        "iitbextramodules": {
+            "type": "github",
+            "url": "https://github.com/iitbombayweb/iitbextra",
             "no-api": true
         },
         "acadcommonmodules": {
