@@ -4784,7 +4784,7 @@
         },
         {
             "name": "iitbombayweb/iitbdeptweb",
-            "version": "8.6.0-alpha7",
+            "version": "8.6.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
