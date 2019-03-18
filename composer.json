@@ -14,7 +14,7 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~4.2",
-        "npm-asset/slick": "~1.0",
+        "bower-asset/slick-carousel": "~1.0",
         "npm-asset/blazy": "~1.0",
         "iitbombayweb/iitbdeptweb": "~8.6.0",
         "iitbombayweb/iitbcommon": "~8.6.0",
@@ -64,6 +64,7 @@
         "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
             "docroot/core": ["type:drupal-core"],
+            "docroot/libraries/slick": ["bower-asset/slick-carousel"],
             "docroot/libraries/{$name}": ["type:drupal-library", "type:bower-asset", "type:npm-asset"],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
@@ -72,6 +73,7 @@
         "enable-patching": true
     },
     "scripts": {
-        "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+        "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "post-update-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
     }
 }
