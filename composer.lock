@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46c0c11e89066501ea98edfe68b684da",
+    "content-hash": "fce2e887797c48c44bd13acb6fc8c036",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1225,16 +1225,16 @@
         },
         {
             "name": "drupal-composer/drupal-scaffold",
-            "version": "2.5.4",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-scaffold.git",
-                "reference": "fc6bf4ceecb5d47327f54d48d4d4f67b17da956d"
+                "reference": "745f0a2d4141fc83d3b42222beff43d66afb3dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/fc6bf4ceecb5d47327f54d48d4d4f67b17da956d",
-                "reference": "fc6bf4ceecb5d47327f54d48d4d4f67b17da956d",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/745f0a2d4141fc83d3b42222beff43d66afb3dc6",
+                "reference": "745f0a2d4141fc83d3b42222beff43d66afb3dc6",
                 "shasum": ""
             },
             "require": {
@@ -1244,9 +1244,7 @@
             },
             "require-dev": {
                 "composer/composer": "dev-master",
-                "g1a/composer-test-scenarios": "^2.1.0",
-                "phpunit/phpunit": "^6",
-                "squizlabs/php_codesniffer": "^2.8"
+                "phpunit/phpunit": "^4.4.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1262,10 +1260,10 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
-            "time": "2018-07-27T10:07:07+00:00"
+            "time": "2017-12-08T22:53:11+00:00"
         },
         {
             "name": "drupal/admin_toolbar",
@@ -4788,12 +4786,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "99c288a2a72a3927e158e492ad7fe9db1921c98a"
+                "reference": "87ef7a9734ed9a43fa6b87efe385131e7659fad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/99c288a2a72a3927e158e492ad7fe9db1921c98a",
-                "reference": "99c288a2a72a3927e158e492ad7fe9db1921c98a",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/87ef7a9734ed9a43fa6b87efe385131e7659fad9",
+                "reference": "87ef7a9734ed9a43fa6b87efe385131e7659fad9",
                 "shasum": ""
             },
             "require": {
@@ -4836,7 +4834,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "IIT Bombay Department Website Distribution Profile 6.0",
-            "time": "2019-03-18T09:27:53+00:00"
+            "time": "2019-03-18T10:42:32+00:00"
         },
         {
             "name": "iitbombayweb/iitbextra",
