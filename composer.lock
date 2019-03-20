@@ -319,16 +319,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "url": "https://api.github.com/repos/composer/semver/zipball/46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
                 "shasum": ""
             },
             "require": {
@@ -377,7 +377,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30T16:08:34+00:00"
+            "time": "2019-03-19T17:25:45+00:00"
         },
         {
             "name": "consolidation/annotated-command",
@@ -3375,6 +3375,57 @@
             }
         },
         {
+            "name": "drupal/migrate_file",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/migrate_file",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_file-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "4a24edc577541b5aa67682a4f89c8dfd7c0788d5"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1539064380",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "drclaw",
+                    "homepage": "https://www.drupal.org/user/823702"
+                }
+            ],
+            "description": "Additional support for migrating files including downloading remote files and using remote uris (without download)",
+            "homepage": "https://www.drupal.org/project/migrate_file",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/migrate_file",
+                "issues": "https://www.drupal.org/project/issues/migrate_file"
+            }
+        },
+        {
             "name": "drupal/migrate_plus",
             "version": "4.1.0",
             "source": {
@@ -3629,17 +3680,17 @@
         },
         {
             "name": "drupal/paragraphs",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "8.x-1.6"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "cd93e244f3a78dabdcf362adc31e59aad25b3fae"
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "85f7a2ef0850dd9113fb57934986a5c31ee2b555"
             },
             "require": {
                 "drupal/core": "~8",
@@ -3649,7 +3700,7 @@
                 "drupal/block_field": "~1.0",
                 "drupal/ctools": "3.x-dev",
                 "drupal/diff": "~1.0",
-                "drupal/entity_browser": "1.x-dev",
+                "drupal/entity_browser": "2.x-dev",
                 "drupal/entity_usage": "2.x-dev",
                 "drupal/field_group": "~1.0",
                 "drupal/inline_entity_form": "~1.0",
@@ -3667,8 +3718,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1550692525",
+                    "version": "8.x-1.7",
+                    "datestamp": "1553087589",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4746,52 +4797,52 @@
         },
         {
             "name": "iitbombayweb/acadcommon",
-            "version": "8.6.0-alpha3",
+            "version": "8.6.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acadcommon",
-                "reference": "c4adb440af1d89e708f6034eed663d6d6806a8e7"
+                "reference": "7279a8374db7cacb3825e95843ad62fb8dca65b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/c4adb440af1d89e708f6034eed663d6d6806a8e7",
-                "reference": "c4adb440af1d89e708f6034eed663d6d6806a8e7",
+                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/7279a8374db7cacb3825e95843ad62fb8dca65b6",
+                "reference": "7279a8374db7cacb3825e95843ad62fb8dca65b6",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "Acadmix Distribution Modules 6.0",
-            "time": "2019-03-15T09:35:17+00:00"
+            "time": "2019-03-20T13:31:08+00:00"
         },
         {
             "name": "iitbombayweb/iitbcommon",
-            "version": "8.6.0-alpha5",
+            "version": "8.6.0-alpha10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbcommon",
-                "reference": "d98ea413fad4168890f2dd5cde3091885c8c0528"
+                "reference": "60509712edf14b55a6c00789a881e2be53079ad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/d98ea413fad4168890f2dd5cde3091885c8c0528",
-                "reference": "d98ea413fad4168890f2dd5cde3091885c8c0528",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbcommon/zipball/60509712edf14b55a6c00789a881e2be53079ad4",
+                "reference": "60509712edf14b55a6c00789a881e2be53079ad4",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "IITB Distribution Modules 6.0",
-            "time": "2019-03-18T09:23:37+00:00"
+            "time": "2019-03-20T12:46:11+00:00"
         },
         {
             "name": "iitbombayweb/iitbdeptweb",
-            "version": "8.6.0-alpha8",
+            "version": "8.6.0-alpha11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "87ef7a9734ed9a43fa6b87efe385131e7659fad9"
+                "reference": "115de2f6f269ff76149d2e4d2cc61dac7a8ccafc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/87ef7a9734ed9a43fa6b87efe385131e7659fad9",
-                "reference": "87ef7a9734ed9a43fa6b87efe385131e7659fad9",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/115de2f6f269ff76149d2e4d2cc61dac7a8ccafc",
+                "reference": "115de2f6f269ff76149d2e4d2cc61dac7a8ccafc",
                 "shasum": ""
             },
             "require": {
@@ -4811,6 +4862,7 @@
                 "drupal/field_permissions": "~1.0",
                 "drupal/ldap": "~3.0",
                 "drupal/libraries": "~3.0",
+                "drupal/migrate_file": "~1.1",
                 "drupal/migrate_plus": "~4.0",
                 "drupal/migrate_source_csv": "~2.2",
                 "drupal/migrate_tools": "~4.0",
@@ -4834,25 +4886,25 @@
                 "GPL-2.0-or-later"
             ],
             "description": "IIT Bombay Department Website Distribution Profile 6.0",
-            "time": "2019-03-18T10:42:32+00:00"
+            "time": "2019-03-20T13:35:02+00:00"
         },
         {
             "name": "iitbombayweb/iitbextra",
-            "version": "8.6.0-alpha2",
+            "version": "8.6.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbextra",
-                "reference": "7433567938368bdc5db4d5f92857fc463bd04c1d"
+                "reference": "c495acb86d98b6eafb5aa2e80f246cfe03b645f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbextra/zipball/7433567938368bdc5db4d5f92857fc463bd04c1d",
-                "reference": "7433567938368bdc5db4d5f92857fc463bd04c1d",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbextra/zipball/c495acb86d98b6eafb5aa2e80f246cfe03b645f9",
+                "reference": "c495acb86d98b6eafb5aa2e80f246cfe03b645f9",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "IITB Distribution Modules 6.0",
-            "time": "2019-03-14T09:03:34+00:00"
+            "time": "2019-03-20T13:33:06+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
