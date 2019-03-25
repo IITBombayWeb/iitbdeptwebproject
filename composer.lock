@@ -4888,12 +4888,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "29e41de779e2e01d0f14be92f447f684cd031edb"
+                "reference": "9f6e6c73a858761872820bad06d692f412e0e1c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/29e41de779e2e01d0f14be92f447f684cd031edb",
-                "reference": "29e41de779e2e01d0f14be92f447f684cd031edb",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/9f6e6c73a858761872820bad06d692f412e0e1c2",
+                "reference": "9f6e6c73a858761872820bad06d692f412e0e1c2",
                 "shasum": ""
             },
             "require": {
@@ -4937,8 +4937,8 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "IIT Bombay Department Website Distribution Profile 6.0",
-            "time": "2019-03-25T10:25:30+00:00"
+            "description": "IIT Bombay Department Website Distribution Profile",
+            "time": "2019-03-25T14:52:52+00:00"
         },
         {
             "name": "iitbombayweb/iitbextra",
