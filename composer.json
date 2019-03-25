@@ -16,10 +16,10 @@
         "solarium/solarium": "~4.2",
         "bower-asset/slick-carousel": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "iitbombayweb/iitbdeptweb": "~8.6.0",
-        "iitbombayweb/iitbcommon": "~8.6.0",
-        "iitbombayweb/iitbextra": "~8.6.0",
-        "iitbombayweb/acadcommon": "~8.6.0"
+        "iitbombayweb/iitbdeptweb": "dev-dev",
+        "iitbombayweb/iitbcommon": "dev-dev",
+        "iitbombayweb/iitbextra": "dev-dev",
+        "iitbombayweb/acadcommon": "dev-dev"
     },
     "repositories": {
         "drupal": {
