@@ -21,6 +21,9 @@
         "iitbombayweb/iitbextra": "dev-dev",
         "iitbombayweb/acadcommon": "dev-dev"
     },
+    "conflict": {
+		"symfony/http-foundation": "3.4.24"
+	},
     "repositories": {
         "drupal": {
             "type": "composer",
