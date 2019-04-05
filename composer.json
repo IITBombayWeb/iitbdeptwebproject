@@ -16,6 +16,7 @@
         "solarium/solarium": "~4.2",
         "bower-asset/slick-carousel": "~1.0",
         "npm-asset/blazy": "~1.0",
+        "npm-asset/datatables": "1.9.4",
         "iitbombayweb/iitbdeptweb": "dev-dev",
         "iitbombayweb/iitbcommon": "dev-dev",
         "iitbombayweb/iitbextra": "dev-dev",
