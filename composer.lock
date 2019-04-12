@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c2a92c9920c36e6e078b094c909eaa6",
+    "content-hash": "bb5a953c63c28302d13f9f29127daa6a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -124,16 +124,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/180c5c33e477463ed93a9d5f7ac7cad7c9809f1c",
+                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c"
             },
             "type": "bower-asset",
             "license": [
@@ -5349,17 +5349,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acadcommon",
-                "reference": "0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354"
+                "reference": "8e065a77fcda496d548eb9a6189a3a8fe14bbff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354",
-                "reference": "0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354",
+                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/8e065a77fcda496d548eb9a6189a3a8fe14bbff7",
+                "reference": "8e065a77fcda496d548eb9a6189a3a8fe14bbff7",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "Acadmix Distribution Modules 6.0",
-            "time": "2019-04-10T09:39:02+00:00"
+            "time": "2019-04-12T06:20:19+00:00"
         },
         {
             "name": "iitbombayweb/iitbcommon",
@@ -5385,17 +5385,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/iitbdeptweb",
-                "reference": "06a49c14d57a7d535ad1f65a51e99df7dfb61790"
+                "reference": "45cc6829a4c41bb0d5f16e42651d3f78e8d271a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/06a49c14d57a7d535ad1f65a51e99df7dfb61790",
-                "reference": "06a49c14d57a7d535ad1f65a51e99df7dfb61790",
+                "url": "https://api.github.com/repos/iitbombayweb/iitbdeptweb/zipball/45cc6829a4c41bb0d5f16e42651d3f78e8d271a8",
+                "reference": "45cc6829a4c41bb0d5f16e42651d3f78e8d271a8",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/slick-carousel": "~1.0",
-                "composer/installers": "^1.0.24",
                 "drupal/admin_toolbar": "~1.24",
                 "drupal/authorization": "~1.0",
                 "drupal/better_exposed_filters": "~3.0",
@@ -5445,11 +5444,16 @@
                     ]
                 }
             },
+            "scripts": {
+                "remove-extra-libraries": [
+                    "rm -rf docroot/libraries/slick-carousel"
+                ]
+            },
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "IIT Bombay department website distribution profile",
-            "time": "2019-04-10T13:14:23+00:00"
+            "time": "2019-04-12T16:00:47+00:00"
         },
         {
             "name": "iitbombayweb/iitbextra",
