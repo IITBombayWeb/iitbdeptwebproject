@@ -9,7 +9,7 @@
         "php": ">=7.1.0",
         "drupal/core": "~8.7.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
-        "szeidler/composer-patches-cli": "dev-master",
+        "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "16e62e9aa9a6f525389b002620839a57",
+    "content-hash": "6f974169f59fad4a54ef75d7b22b5382",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -9889,16 +9889,16 @@
         },
         {
             "name": "szeidler/composer-patches-cli",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/szeidler/composer-patches-cli.git",
-                "reference": "9a96e771efed01072c2453508be4e3a4a3fb3a21"
+                "reference": "2f923dfdc1b6295a19ab7e63100b152c6f2bc9d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/szeidler/composer-patches-cli/zipball/9a96e771efed01072c2453508be4e3a4a3fb3a21",
-                "reference": "9a96e771efed01072c2453508be4e3a4a3fb3a21",
+                "url": "https://api.github.com/repos/szeidler/composer-patches-cli/zipball/2f923dfdc1b6295a19ab7e63100b152c6f2bc9d1",
+                "reference": "2f923dfdc1b6295a19ab7e63100b152c6f2bc9d1",
                 "shasum": ""
             },
             "require": {
@@ -9916,7 +9916,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-11-21T12:41:00+00:00"
+            "time": "2019-11-21T12:32:46+00:00"
         },
         {
             "name": "twig/twig",
@@ -10436,7 +10436,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "szeidler/composer-patches-cli": 20,
         "drupal/empty_front_page": 20
     },
     "prefer-stable": true,
