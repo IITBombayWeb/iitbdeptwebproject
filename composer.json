@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.1.0",
-        "drupal/core": "~8.7.0",
+        "drupal/core": "~8.8.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
         "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -80,7 +80,8 @@
             "docroot/libraries/{$name}": ["type:drupal-library", "type:bower-asset", "type:npm-asset"],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "docroot/themes/contrib/{$name}": ["type:drupal-theme"]
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "docroot/patch/{$name}": ["type:drupal-patch"]
         },
         "enable-patching": true
     },
