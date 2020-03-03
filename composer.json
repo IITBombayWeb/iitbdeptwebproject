@@ -17,7 +17,7 @@
         "solarium/solarium": "~4.2",
         "iitbombayweb/iitbdeptweb": "dev-dev#aabc8c4d3946bd5635fe1a1411f028391a20d65d",
         "iitbombayweb/iitbcommon": "dev-dev#0fe8db9bfa5d6745d747652bd39a7c9ce1e8c7c8",
-        "iitbombayweb/iitbextra": "dev-dev#1d85f974d7d5e6ebaddf6c9e64828f37c789766d",
+        "iitbombayweb/iitbextra": "dev-dev#0b75bbc2aef69da709c5523ef222b1ea01c218ee",
         "iitbombayweb/acadcommon": "dev-dev#cbcf92daeb004610b48e5f408b0a7cb84bced2a0"
     },
     "conflict": {
