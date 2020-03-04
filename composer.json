@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.3.0",
         "drupal/core": "~8.8.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
         "szeidler/composer-patches-cli": "~1.0.0",
