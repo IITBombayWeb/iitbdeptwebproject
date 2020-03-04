@@ -6,19 +6,19 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.1.0",
-        "drupal/core": "~8.7.0",
+        "php": ">=7.3.0",
+        "drupal/core": "~8.8.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
-        "szeidler/composer-patches-cli": "dev-master",
+        "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~4.2",
-        "iitbombayweb/iitbdeptweb": "~8.7.0",
-        "iitbombayweb/iitbcommon": "~8.7.0",
-        "iitbombayweb/iitbextra": "~8.7.0",
-        "iitbombayweb/acadcommon": "~8.7.0"
+        "iitbombayweb/iitbdeptweb": "~8.8.0",
+        "iitbombayweb/iitbcommon": "~8.8.0",
+        "iitbombayweb/iitbextra": "~8.8.0",
+        "iitbombayweb/acadcommon": "~8.8.0"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
@@ -71,9 +71,11 @@
             "docroot/libraries/{$name}": ["type:drupal-library", "type:bower-asset", "type:npm-asset"],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "docroot/themes/contrib/{$name}": ["type:drupal-theme"]
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "patch/{$name}": ["type:drupal-patch"]
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "patches-file": "composer.patches.json"
     },
     "scripts": {
         "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
