@@ -7,7 +7,6 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3.0",
-        "drupal/core": "~8.8.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
         "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -18,7 +17,9 @@
         "iitbombayweb/iitbdeptweb": "~8.8.0",
         "iitbombayweb/iitbcommon": "~8.8.0",
         "iitbombayweb/iitbextra": "~8.8.0",
-        "iitbombayweb/acadcommon": "~8.8.0"
+        "iitbombayweb/acadcommon": "~8.8.0",
+        "composer/installers": "^1.7",
+        "drupal/core-recommended": "^8.8"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
