@@ -14,8 +14,8 @@
         "wikimedia/composer-merge-plugin": "~2.0",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
-        "solarium/solarium": "~4.2",
-        "iitbombayweb/iitbdeptweb": "dev-dev#9cffdf946b9f2a1eae54d71b0c1f0ed03fc66175",
+        "solarium/solarium": "~6.1",
+        "iitbombayweb/iitbdeptweb": "dev-dev#b6f60ac26061fa3a00d5c02cf1a4fd56f6c47f09",
         "iitbombayweb/iitbcommon": "dev-dev#ed89d747b1fd0bc586547cae677c3080ba80b1c6",
         "iitbombayweb/iitbextra": "dev-dev#820fc5c7d505b91de05e1ee66c9e19e96a6d1425",
         "iitbombayweb/acadcommon": "dev-dev#85b4e2353164fb8dac6c937b7cfae1b56fa74ce6"
@@ -27,6 +27,19 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "groupmenu": {
+            "type": "package",
+            "package": {
+                "name": "drupal_git/groupmenu",
+                "type": "drupal-module",
+                "version": "1.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/groupmenu.git",
+                    "reference": "tags/8.x-1.0-beta2"
+                }
+            }
         },
         "asset": {
             "type": "composer",
@@ -57,6 +70,11 @@
         "process-timeout": 0
     },
     "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "docroot/"
+            }
+        },
         "merge-plugin": {
             "include": ["docroot/profiles/contrib/iitbdeptweb/composer.json"],
             "recurse": true,
