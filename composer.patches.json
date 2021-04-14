@@ -1,6 +1,10 @@
 {
   "patches": {
-    "drupal/group": {
-      "Drupal group custom patch(group-content-entity-tokens-2916907-7)": "patch/group/group_url_alias.patch"
-    }}
+	    "drupal/group": {
+	      "Drupal group custom patch(group-content-entity-tokens-2916907-7)": "patch/group/group_url_alias.patch"
+	    },
+	    "drupal/groupmenu": {
+	      "Drupal 9 groupmenu patch(https://www.drupal.org/project/groupmenu/issues/3144604)": "patch/group/groupmenu-drupal9_readiness-3144604-7.patch"
+	    }
+	}
 }
