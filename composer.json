@@ -15,8 +15,8 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-        "iitbombayweb/iitbdeptweb": "dev-dev#b6f60ac26061fa3a00d5c02cf1a4fd56f6c47f09",
-        "iitbombayweb/iitbcommon": "dev-dev#ed89d747b1fd0bc586547cae677c3080ba80b1c6",
+        "iitbombayweb/iitbdeptweb": "dev-dev#f92cb69198780f0248df8cfede54440cb2ad26bd",
+        "iitbombayweb/iitbcommon": "dev-dev#4aa2614f7e34853391c7e2baf06cc720d3ba22d7",
         "iitbombayweb/iitbextra": "dev-dev#820fc5c7d505b91de05e1ee66c9e19e96a6d1425",
         "iitbombayweb/acadcommon": "dev-dev#85b4e2353164fb8dac6c937b7cfae1b56fa74ce6"
     },
