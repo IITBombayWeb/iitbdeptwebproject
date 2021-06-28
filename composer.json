@@ -7,18 +7,18 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3.0",
-        "drupal/core": "~8.8.0",
-        "drupal-composer/drupal-scaffold": "~2.4.0",
+        "drupal/core-recommended": "~9.2.0",
+        "drupal/core-composer-scaffold": "~9.2",
         "szeidler/composer-patches-cli": "~1.0.0",
-        "oomphinc/composer-installers-extender": "^1.1",
-        "wikimedia/composer-merge-plugin": "^1.4",
+        "oomphinc/composer-installers-extender": "~2.0",
+        "wikimedia/composer-merge-plugin": "~2.0",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
-        "solarium/solarium": "~4.2",
-        "iitbombayweb/iitbdeptweb": "~8.8.0",
-        "iitbombayweb/iitbcommon": "~8.8.0",
-        "iitbombayweb/iitbextra": "~8.8.0",
-        "iitbombayweb/acadcommon": "~8.8.0"
+        "solarium/solarium": "~6.1",
+        "iitbombayweb/iitbdeptweb": "~9.2.0",
+        "iitbombayweb/iitbcommon": "~9.2.0",
+        "iitbombayweb/iitbextra": "~9.2.0",
+        "iitbombayweb/acadcommon": "~9.2.0"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
@@ -51,12 +51,30 @@
             "type": "github",
             "url": "https://github.com/iitbombayweb/acadcommon",
             "no-api": true
+        },
+        "groupmenu": {
+            "type": "package",
+            "package": {
+                "name": "drupal_git/groupmenu",
+                "type": "drupal-module",
+                "version": "1.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/groupmenu.git",
+                    "reference": "tags/8.x-1.0-beta2"
+                }
+            }
         }
     },
     "config": {
         "process-timeout": 0
     },
     "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "docroot/"
+            }
+        },
         "merge-plugin": {
             "include": ["docroot/profiles/contrib/iitbdeptweb/composer.json"],
             "recurse": true,
