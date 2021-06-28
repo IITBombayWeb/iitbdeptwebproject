@@ -15,10 +15,10 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-        "iitbombayweb/iitbdeptweb": "dev-dev#f92cb69198780f0248df8cfede54440cb2ad26bd",
-        "iitbombayweb/iitbcommon": "dev-dev#4aa2614f7e34853391c7e2baf06cc720d3ba22d7",
-        "iitbombayweb/iitbextra": "dev-dev#820fc5c7d505b91de05e1ee66c9e19e96a6d1425",
-        "iitbombayweb/acadcommon": "dev-dev#85b4e2353164fb8dac6c937b7cfae1b56fa74ce6"
+        "iitbombayweb/iitbdeptweb": "dev-dev#014c655151c9bc01fd31806552b0344f20f4a637",
+        "iitbombayweb/iitbcommon": "dev-dev#0754de4ba634f7730b3088a548ef97b845a40b4f",
+        "iitbombayweb/iitbextra": "dev-dev#7c4e2ba4a827d4e93dbc7c33cde51f70f2106370",
+        "iitbombayweb/acadcommon": "dev-dev#599d2be6525f2c5b6719cbcdd293787091bacf54"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
