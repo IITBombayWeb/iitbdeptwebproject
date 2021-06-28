@@ -15,7 +15,7 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-        "iitbombayweb/iitbdeptweb": "dev-dev#c1817be3a19c65b02a33356604f6e893abeca108",
+        "iitbombayweb/iitbdeptweb": "dev-dev#59ce315f4492fa3352692115bba2ff0590392f12",
         "iitbombayweb/iitbcommon": "dev-dev#0754de4ba634f7730b3088a548ef97b845a40b4f",
         "iitbombayweb/iitbextra": "dev-dev#7c4e2ba4a827d4e93dbc7c33cde51f70f2106370",
         "iitbombayweb/acadcommon": "dev-dev#599d2be6525f2c5b6719cbcdd293787091bacf54"
@@ -27,19 +27,6 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        "groupmenu": {
-            "type": "package",
-            "package": {
-                "name": "drupal_git/groupmenu",
-                "type": "drupal-module",
-                "version": "1.0-beta2",
-                "source": {
-                    "type": "git",
-                    "url": "https://git.drupalcode.org/project/groupmenu.git",
-                    "reference": "tags/8.x-1.0-beta2"
-                }
-            }
         },
         "asset": {
             "type": "composer",
@@ -64,6 +51,19 @@
             "type": "github",
             "url": "https://github.com/iitbombayweb/acadcommon",
             "no-api": true
+        },
+        "groupmenu": {
+            "type": "package",
+            "package": {
+                "name": "drupal_git/groupmenu",
+                "type": "drupal-module",
+                "version": "1.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/groupmenu.git",
+                    "reference": "tags/8.x-1.0-beta2"
+                }
+            }
         }
     },
     "config": {
